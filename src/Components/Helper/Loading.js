@@ -1,11 +1,11 @@
 import React from 'react';
 
-const FeedModal = () => {
+const Loading = () => {
   return (
     <div>
-      
+      Carregando...
     </div>
   );
 };
 
-export default FeedModal;
+export default Loading;
