@@ -13,7 +13,7 @@ const Photo = () => {
   React.useEffect(() => {
     const { url,  options } = PHOTO_GET(id);
     request(url, options);
-  }, request, id);
+  }, [request, id]);
 
   if (error) return <Error error={error} />
   if (loading) return <Loading />
