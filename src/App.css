@@ -94,3 +94,8 @@ a {
 .AppBody {
   flex: 1;
 }
+
+.VictoryContainer {
+  height: initial !important;
+  padding: 0 1rem 0 .5rem;
+}
